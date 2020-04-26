@@ -1,0 +1,10 @@
+﻿@model MusicPanelType
+
+@{
+    var _hubNames = (ViewData["MusicHubs"] as List<MusicHubVM>).Select(x => x.Name).ToArray();
+
+
+}
+
+@Html.DropDownList("user", new SelectList(_hubNames), $"--Select {Model.ToString().ToLower()} hub--", new { @class = "form-control" })
+

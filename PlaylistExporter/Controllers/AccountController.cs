@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PlaylistExporter.Models;
+using WebUI.Models;
 
-namespace PlaylistExporter.Controllers
+namespace WebUI.Controllers
 {
     public class AccountController : Controller
     {

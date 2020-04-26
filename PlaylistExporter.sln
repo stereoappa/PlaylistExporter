@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistExporter", "PlaylistExporter\PlaylistExporter.csproj", "{6D69C685-71A6-49F8-B810-32D8167227C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "PlaylistExporter\WebUI.csproj", "{6D69C685-71A6-49F8-B810-32D8167227C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{E5BCFFF2-E84D-4D96-BC7F-07F20D43DC1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{76116CC6-1074-4632-87B4-0214A8CEE950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{75F291BC-3FE6-4F7B-834A-3467E78D8BBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D69C685-71A6-49F8-B810-32D8167227C1} = {E5BCFFF2-E84D-4D96-BC7F-07F20D43DC1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A91DD9A-D6E7-4C3A-BA28-D7D414446A04}

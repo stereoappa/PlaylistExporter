@@ -1,6 +1,6 @@
 using System;
 
-namespace PlaylistExporter.Models
+namespace WebUI.Models
 {
     public class ErrorViewModel
     {
