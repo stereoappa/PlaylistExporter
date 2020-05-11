@@ -15,12 +15,6 @@ namespace WebUI.Controllers
              
         public IActionResult Index()
         {
-            ViewData["MusicHubs"] = new List<MusicHubVM>
-            {
-                new MusicHubVM { Name = "Deezer"},
-                new MusicHubVM { Name = "Yandex Music"}
-            };
-
             return View();
         }
     }
