@@ -6,9 +6,9 @@ using DomainModel.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebUI.Controllers.api
+namespace WebApi.Controllers.api
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class HubsController : ControllerBase
     {
