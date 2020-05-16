@@ -1,0 +1,19 @@
+{
+  "name": "playlist-relocator-client",
+  "version": "1.0.0",
+  "description": "Client application for playlist relocator project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "playlist"
+  ],
+  "author": "Anton Temnov <stereoappa@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
