@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>65eebe47-0723-4d06-b418-011e8ff3ecc4</UserSecretsId>
+    <AssemblyName>WebApi</AssemblyName>
+    <RootNamespace>WebApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

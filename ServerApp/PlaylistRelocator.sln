@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "PlaylistRelocator\WebUI.csproj", "{6D69C685-71A6-49F8-B810-32D8167227C1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{E5BCFFF2-E84D-4D96-BC7F-07F20D43DC1B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{E5BCFFF2-E84D-4D96-BC7F-07F20D43DC1B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{75F291BC-3FE6-4F7B-834A-3467E78D8BBF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{76116CC6-1074-4632-87B4-0214A8CEE950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModel", "DomainModel\DomainModel\DomainModel.csproj", "{1577DB8E-D7B1-4CB3-8E66-0EC50433B8DB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{75F291BC-3FE6-4F7B-834A-3467E78D8BBF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel\DomainModel.csproj", "{1577DB8E-D7B1-4CB3-8E66-0EC50433B8DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{2DC73FA4-975D-470B-8AF4-CE325ED71BED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,21 +17,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6D69C685-71A6-49F8-B810-32D8167227C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D69C685-71A6-49F8-B810-32D8167227C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D69C685-71A6-49F8-B810-32D8167227C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D69C685-71A6-49F8-B810-32D8167227C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1577DB8E-D7B1-4CB3-8E66-0EC50433B8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1577DB8E-D7B1-4CB3-8E66-0EC50433B8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1577DB8E-D7B1-4CB3-8E66-0EC50433B8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1577DB8E-D7B1-4CB3-8E66-0EC50433B8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC73FA4-975D-470B-8AF4-CE325ED71BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC73FA4-975D-470B-8AF4-CE325ED71BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC73FA4-975D-470B-8AF4-CE325ED71BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC73FA4-975D-470B-8AF4-CE325ED71BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6D69C685-71A6-49F8-B810-32D8167227C1} = {E5BCFFF2-E84D-4D96-BC7F-07F20D43DC1B}
 		{1577DB8E-D7B1-4CB3-8E66-0EC50433B8DB} = {75F291BC-3FE6-4F7B-834A-3467E78D8BBF}
+		{2DC73FA4-975D-470B-8AF4-CE325ED71BED} = {E5BCFFF2-E84D-4D96-BC7F-07F20D43DC1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A91DD9A-D6E7-4C3A-BA28-D7D414446A04}
