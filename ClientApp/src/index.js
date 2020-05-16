@@ -1,1 +1,1 @@
-const test = '123'
+import './scss/index.scss'
