@@ -4,7 +4,13 @@
   "description": "Client application for playlist relocator project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stereoappa/PlaylistRelocator.git"
   },
   "keywords": [
     "js",
@@ -12,6 +18,11 @@
   ],
   "author": "Anton Temnov <stereoappa@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stereoappa/PlaylistRelocator/issues"
+  },
+  "homepage": "https://github.com/stereoappa/PlaylistRelocator#readme",
+  "private": true,
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
