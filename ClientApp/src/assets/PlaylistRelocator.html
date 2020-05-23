@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Form for registration</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+      <div class="container">
+        <a class="navbar-brand" asp-area="" asp-controller="Cabinet" asp-action="Index">Playlist Exporter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <div class="card text-white bg-light">
+          <div class="card-body bg-primary">
+            <select name="source-hub-select" id="source-hub-select">
+              <option>--Select source hub--</option>
+              <option class="deezer">Deezer</option>
+              <option class="yamusic">Yandex music</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card text-white bg-dark">
+          <div class="card-body ">
+            <select name="target-hub-select" id="target-hub-select">
+              <option>--Select target hub--</option>
+              <option>Deezer</option>
+              <option>Yandex music</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-top footer text-muted">
+    <div class="container">
+      &copy; 2020 - Playlist Exporter
+    </div>
+  </footer>
+</body>
+
+</html>

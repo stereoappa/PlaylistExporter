@@ -1,4 +1,26 @@
-$red: black;
+@import "~bootstrap/scss/bootstrap";
+@import "variables";
+@import "_mixins";
+
 body{
-   background:$red;
+   background:#ccc;
 }
+
+.hub-selector {
+   .dropdown-item {
+      padding: 0.25rem 0.8rem;
+   }
+
+   .dzr-ico {
+      @include dropdown-option('/images/deezer.png')   
+   }
+   
+   .yamusic-ico {
+      @include dropdown-option('/images/yamusic.png')   
+   }
+}
+
+
+
+
+

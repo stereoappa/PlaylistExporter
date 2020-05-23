@@ -1,0 +1,10 @@
+@mixin dropdown-option($url) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: bottom;
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
