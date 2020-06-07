@@ -12,6 +12,7 @@ namespace WebApi.Controllers.api
     [ApiController]
     public class HubsController : ControllerBase
     {
+        [HttpGet]
         public JsonResult GetAllDescriptions()
         {
             var hubs = new List<HubDescription>
